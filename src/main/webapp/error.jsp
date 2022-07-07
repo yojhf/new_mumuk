@@ -6,7 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>네이버 :: 페이지를 찾을 수 없습니다.</title>
+<title>404 없는 페이지 입니다.</title>
 <link rel="stylesheet" type="text/css" href="/dist/css/err_170424.css?1017" />
 <script type=text/javascript>
 var defaultCharset = document.charset ;

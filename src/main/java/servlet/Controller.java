@@ -54,10 +54,15 @@ public class Controller extends HttpServlet
 			System.out.println("insert.jsp  로 이동");
 			site = "/insert.jsp";
 		}
+		else if (uri.equals("/insert_proc.menu")) 
+		{
+			System.out.println("insert_proc.jsp  로 이동");
+			site = "/insertServlet";
+		}
 		else if (uri.equals("/see.menu")) 
 		{
 			System.out.println("see.jsp  로 이동");
-			site = "/see.jsp";
+			site = "/SeeServlet";
 		}
 		else if (uri.equals("/best.menu")) 
 		{

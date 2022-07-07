@@ -16,7 +16,7 @@
 <%@ include file="header.jsp" %>
 <div class="container">
 <h3>메뉴입력</h3>
-  <form action="/action_page.php" method="post">
+  <form action="/insert_proc.menu" method="post">
     <div class="form-group">
       <label for="menu">메뉴이름:</label>
       <input type="text" class="form-control" id="menu" placeholder="메뉴 이름 입력" name="menu">
