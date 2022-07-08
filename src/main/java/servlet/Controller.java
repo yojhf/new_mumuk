@@ -69,6 +69,18 @@ public class Controller extends HttpServlet
 			System.out.println("best.jsp  로 이동");
 			site = "/best.jsp";
 		}
+		else if(uri.equals("/login.menu")) 
+		{  
+			//uri.equals("/insert.menu") uriArr[0].equals("/insert")
+			System.out.println("login.jsp 로 이동");
+			site = "/LoginServlet";
+		}
+		else if(uri.equals("/logout.menu")) 
+		{  
+			//uri.equals("/insert.menu") uriArr[0].equals("/insert")
+			System.out.println("logout.jsp 로 이동");
+			site = "/logout.jsp";
+		}
 		else
 		{
 			System.out.println("잘못된 페이지 입니다.");
